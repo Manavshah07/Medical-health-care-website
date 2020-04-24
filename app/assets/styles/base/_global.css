@@ -1,0 +1,22 @@
+/*
+*  B = Block (Reusable Component)
+*  E = Element (Within the block)
+*  M = Modifier (They are the event which comes on thenevent and goes on the event)
+*/
+
+body{
+    font-family: 'Roboto',sans-serif;
+    color: #333;
+    font-weight: 300;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lato',sans-serif;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,17 @@
+/*
+* FILE ARCHITECTURE
+* IDENTIFY PATTERNS IN THE DESIGN
+* RULES to be followed to make the classes of CSS
+
+
+* BEM :
+* B - Block
+* E - Element
+* M - Modifier //Jab state change hota hy jab class add/remove hota hy i.e. koi event pe.
+*/
+
+@import "normalize.css";
+@import "base/_variable";
+@import "base/_global";
+@import "modules/_large-hero";
+@import "modules/_btn.css";
