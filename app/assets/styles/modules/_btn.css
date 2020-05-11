@@ -1,16 +1,26 @@
-.btn{
+.btn {
     display: inline-block;
     line-height: 1;
-    padding: 0.75rem 1.5rem;
+    padding: 12px 24px;
     border-radius: 6px;
     text-align: center;
     font-size: 0.915rem;
 
-    &-blue{
+    @mixin smallScreen{
+        font-size: 0.915rem;
+    }
+
+    @mixin mediumScreen{
+        padding: 0.75rem 1.5rem;
+    }
+
+
+    &-blue {
         color: $white;
         background-color: $mainBlue;
     }
-    &:hover{
+
+    &:hover {
         background-color: $btnHoverBlue;
     }
 }

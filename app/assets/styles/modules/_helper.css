@@ -1,0 +1,38 @@
+.section{
+    padding: 80px 0;
+
+    &-bg-light{
+        background-color: $lightGrey;
+    }
+    &-bg-blue{
+        background-color: $mainBlue;
+    }
+}
+
+.d-block{
+    display: block;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-justify{
+    text-align: justify;
+}
+
+.p-b-0{
+    padding-bottom: 0;
+}
+.m-t-35{
+    margin-top: 35px;
+}
+.m-b-15{
+    margin-bottom: 15px;
+}
+

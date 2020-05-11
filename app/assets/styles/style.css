@@ -5,13 +5,23 @@
 
 
 * BEM :
-* B - Block
-* E - Element
+* B - Block //Reusable component matlab wrapper ya bootstrap ka container
+* E - Element //matlab mere wrapper ke aandeer ka block or bootstrap ke container ka aandaar ka block 
 * M - Modifier //Jab state change hota hy jab class add/remove hota hy i.e. koi event pe.
 */
 
 @import "normalize.css";
 @import "base/_variable";
 @import "base/_global";
+@import "base/_mixins.css";
+@import "modules/_grid.css";
+@import "modules/_helper.css";
+@import "modules/_heading.css";
 @import "modules/_large-hero";
 @import "modules/_btn.css";
+@import "modules/_services.css";
+@import "modules/_heading.css";
+@import "modules/_counter.css";
+@import "modules/_testimonial.css";
+@import "modules/_footer.css";
+@import "modules/_header.css";
