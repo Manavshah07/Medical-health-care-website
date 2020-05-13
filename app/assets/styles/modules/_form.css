@@ -1,0 +1,25 @@
+.form-control {
+    background-color: $white;
+    border: solid 1px $lightGrey;
+    color: $darkGrey;
+    height: 52px;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 300;
+    padding: 5px 15px;
+    border-radius: 4px;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    transition: border-color .25s ease-in-out;
+    &:focus {
+        border-color: $mainBlue;
+        outline: 0 none;
+    }
+}
+
+textarea.form-control {
+    padding: 20px 15px;
+    resize: vertical;
+    min-height: 100px;
+}
